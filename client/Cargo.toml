@@ -1,0 +1,10 @@
+[package]
+name = "client"
+version = "0.1.0"
+authors = ["Ilya Bogdanov <fumlead@gmail.com>"]
+
+[dependencies]
+env_logger = "0.4"
+structopt = "0.1"
+structopt-derive = "0.1"
+ancestor = { path = "../" }

@@ -1,0 +1,25 @@
+[package]
+name = "ancestor"
+version = "0.1.0"
+authors = ["Ilya Bogdanov <fumlead@gmail.com>"]
+
+[dependencies]
+bytes = "0.4"
+futures = "0.1"
+futures-cpupool = "0.1"
+rand = "0.3"
+log = "0.3"
+tokio-io = "0.1"
+tokio-core = "0.1"
+tokio-proto = "0.1"
+tokio-service = "0.1"
+tokio-timer = "0.1"
+serde = "1.0"
+serde_derive = "1.0"
+serde_json = "1.0"
+
+[workspace]
+members = [
+"server",
+"client",
+]
